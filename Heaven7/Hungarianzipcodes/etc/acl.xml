@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+	<acl>
+		<resources>
+			<resource id="Magento_Backend::admin">
+				<resource id="Heaven7_Hungarianzipcodes::Zip" sortOrder="10" title="Zip">
+					<resource id="Heaven7_Hungarianzipcodes::Zip_save" sortOrder="10" title="Save Zip"/>
+					<resource id="Heaven7_Hungarianzipcodes::Zip_delete" sortOrder="20" title="Delete Zip"/>
+					<resource id="Heaven7_Hungarianzipcodes::Zip_update" sortOrder="30" title="Update Zip"/>
+					<resource id="Heaven7_Hungarianzipcodes::Zip_view" sortOrder="40" title="View Zip"/>
+				</resource>
+			</resource>
+		</resources>
+	</acl>
+</config>
